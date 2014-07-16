@@ -1,0 +1,234 @@
+@font-face {
+  font-family: 'Proxima';
+  src: url(../fonts/proximanova-regular-webfont.eot?1307578394);
+  src: url('../fonts/proximanova-regular-webfont.eot?iefix') format('eot'), url(../fonts/proximanova-regular-webfont.woff?1307578394) format('woff'), url(../fonts/proximanova-regular-webfont.ttf?1307578394) format('truetype'), url('../fonts/proximanova-regular-webfont.svg#webfont2rpW2ohz') format('svg');
+}
+@font-face {
+  font-family: 'Proxima';
+  font-style: italic;
+  src: url(../fonts/proximanova-regitalic-webfont.eot?1307578394);
+  src: url('../fonts/proximanova-regitalic-webfont.eot?iefix') format('eot'), url(../fonts/proximanova-regitalic-webfont.woff?1307578394) format('woff'), url(../fonts/proximanova-regitalic-webfont.ttf?1307578394) format('truetype'), url('../fonts/proximanova-regitalic-webfont.svg#webfont2rpW2ohz') format('svg');
+}
+@font-face {
+  font-family: 'Proxima';
+  font-weight: 300;
+  src: url(../fonts/proximanova-light-webfont.eot?1307578394);
+  src: url('../fonts/proximanova-light-webfont.eot?iefix') format('eot'), url(../fonts/proximanova-light-webfont.woff?1307578394) format('woff'), url(../fonts/proximanova-light-webfont.ttf?1307578394) format('truetype'), url('../fonts/proximanova-light-webfont.svg#webfont2rpW2ohz') format('svg');
+}
+@font-face {
+  font-family: 'Proxima';
+  font-weight: 600;
+  src: url(../fonts/proximanova-semibold-webfont.eot?1307578394);
+  src: url('../fonts/proximanova-semibold-webfont.eot?iefix') format('eot'), url(../fonts/proximanova-semibold-webfont.woff?1307578394) format('woff'), url(../fonts/proximanova-semibold-webfont.ttf?1307578394) format('truetype'), url('../fonts/proximanova-semibold-webfont.svg#webfont2rpW2ohz') format('svg');
+}
+@font-face {
+  font-family: 'Proxima';
+  font-weight: 600;
+  font-style: italic;
+  src: url(../fonts/proximanova-semibolditalic-webfont.eot?1307578394);
+  src: url('../fonts/proximanova-semibolditalic-webfont.eot?iefix') format('eot'), url(../fonts/proximanova-semibolditalic-webfont.woff?1307578394) format('woff'), url(../fonts/proximanova-semibolditalic-webfont.ttf?1307578394) format('truetype'), url('../fonts/proximanova-semibolditalic-webfont.svg#webfont2rpW2ohz') format('svg');
+}
+@font-face {
+  font-family: 'Proxima';
+  font-weight: bold;
+  src: url(../fonts/proximanova-bold-webfont.eot?1307578394);
+  src: url('../fonts/proximanova-bold-webfont.eot?iefix') format('eot'), url(../fonts/proximanova-bold-webfont.woff?1307578394) format('woff'), url(../fonts/proximanova-bold-webfont.ttf?1307578394) format('truetype'), url('../fonts/proximanova-bold-webfont.svg#webfont2rpW2ohz') format('svg');
+}
+@font-face {
+  font-family: 'Proxima';
+  font-weight: bold;
+  font-style: italic;
+  src: url(../fonts/proximanova-boldit-webfont.eot?1307578394);
+  src: url('../fonts/proximanova-boldit-webfont.eot?iefix') format('eot'), url(../fonts/proximanova-boldit-webfont.woff?1307578394) format('woff'), url(../fonts/proximanova-boldit-webfont.ttf?1307578394) format('truetype'), url('../fonts/proximanova-boldit-webfont.svg#webfont2rpW2ohz') format('svg');
+}
+@font-face {
+  font-family: 'Proxima';
+  font-weight: 900;
+  src: url(../fonts/proximanova-extrabold-webfont.eot?1307578394);
+  src: url('../fonts/proximanova-extrabold-webfont.eot?iefix') format('eot'), url(../fonts/proximanova-extrabold-webfont.woff?1307578394) format('woff'), url(../fonts/proximanova-extrabold-webfont.ttf?1307578394) format('truetype'), url('../fonts/proximanova-extrabold-webfont.svg#webfont2rpW2ohz') format('svg');
+}
+body,
+h1,
+a,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+div {
+  font-family: "Proxima", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+input,
+button,
+select,
+textarea {
+  font-family: "Proxima", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.navbar-search .search-query {
+  font-family: "PlutoSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.text-white {
+  color: #ffffff;
+}
+.text-lightGray {
+  color: #6f7d95;
+}
+.text-gray {
+  color: #344051;
+}
+.text-mediumGray {
+  color: #566277;
+}
+.text-blue{
+	color: #1fcdd1;
+}
+.nav{
+	padding-top: 30px;
+	padding-bottom: 10px;
+	background: #20cdd1;
+}
+.header{
+	background: #20cdd1;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.header h4{
+	padding-bottom: 20px;
+}
+.banner{
+	background: #ebf1f5;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+#form2 textarea,
+#form2 input {
+  background: rgba(0, 0, 0, 0.2);
+  border: none;
+  color: #fff;
+}
+.modulos{
+	padding-top: 60px;
+	padding-bottom: 80px;
+}
+.contacto{
+	background: #d9e3eb;
+	padding-top: 40px;
+	padding-bottom: 80px;
+}
+.footer{
+	background: #344051;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+.footer p{
+	font-size: 12px;
+	text-align: left;
+	color: #6f7d95;
+}
+h1{
+	font-size: 35px;
+  line-height: 42px;
+  font-weight: bold;
+  color: white;
+ 	text-align: center;
+ 	padding-bottom: 40px;
+}
+h2{
+	font-size: 28px;
+}
+h3{
+	font-size: 20px;
+	line-height: 28px;
+	text-align: center;
+	font-weight: bold;
+}
+h4{
+	font-size: 17px;
+	line-height: 22px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+p{
+	text-align: center;
+	color: #566277;
+}
+li a {
+  font-size: 13px;
+  color: white;
+  font-weight: bold;
+  padding-right: 50px;
+}
+li a:hover {
+  color: #29323a;
+  text-decoration: none;
+}
+img.img-center {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -25px;
+  display: block;
+  padding-top: 40px;
+  padding-bottom: 22px;
+}
+.btn-success {
+  background-color: #d9e3eb;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 0%);
+  color: #9299a0;
+  border-width: 0px;
+  font-size: 12px;
+  padding-top: 8px;
+  font-weight: bold;
+  width: 150px;
+  margin-top: 30px;
+}
+.btn-success:hover {
+  background-color: #d9e3eb;
+  background-image: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 0%);
+  border-width: 0px;
+  font-size: 12px;
+  padding-top: 8px;
+  color: #9299a0;
+  text-decoration: none;
+}
+.btn-secondary {
+  background-color: #00b9c7;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 0%);
+  color: #fff;
+  border-width: 0px;
+  font-size: 13px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  width: 150px;
+  margin-top: 40px;
+  font-weight: bold;
+}
+.btn-secondary:hover {
+  background-color: #00b9c7;
+  background-image: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 0%);
+  border-width: 0px;
+  font-size: 13px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  color: #fff;
+  text-decoration: none;
+}
+.btn-default {
+  background-color: transparent;
+  border-color: #fff;
+  border-width: 2px;
+  font-size: 13px;
+  padding-top: 8px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+.btn-default:hover {
+  background-color: #fff;
+  border-color: transparent;
+  color: #1fcdd1;
+  font-weight: bold;
+  text-decoration: none;
+}
+
