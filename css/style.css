@@ -103,7 +103,8 @@ textarea {
 	padding-bottom: 10px;
 }
 #form2 textarea,
-#form2 input {
+#form2 input,
+#form2 select {
   background: rgba(0, 0, 0, 0.2);
   border: none;
   color: #fff;
